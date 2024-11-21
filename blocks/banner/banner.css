@@ -1,0 +1,35 @@
+.banner-container .banner-wrapper {
+    max-width: unset;
+    padding: 0;
+}
+
+.banner {
+    background-color: blue;
+}
+
+.banner > div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.banner-text{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-image {
+    flex: 1; 
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.banner-image > picture > img {
+    border-radius: 5px;
+}
